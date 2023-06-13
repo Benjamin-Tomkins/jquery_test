@@ -1,5 +1,5 @@
 # jquery_test
-
+```
 $('form').submit(function(event) {
     var sum = parseInt($('#fieldB').val()) + parseInt($('#fieldC').val());
     if (sum !== parseInt($('#fieldA').val())) {
@@ -7,3 +7,4 @@ $('form').submit(function(event) {
       event.preventDefault();
     }
   });
+```
